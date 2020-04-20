@@ -1,4 +1,4 @@
-package cn.zlfjw.server;
+package cn.zlfjw.echo.server;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;

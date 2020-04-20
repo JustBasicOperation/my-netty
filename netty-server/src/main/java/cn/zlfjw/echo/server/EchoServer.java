@@ -1,4 +1,4 @@
-package cn.zlfjw.server;
+package cn.zlfjw.echo.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
