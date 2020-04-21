@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bdcee46-218b-4a94-8f20-541ffecb56cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/buffer/TestByteBuf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/transport/NettyNioServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/transport/NettyOioServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/transport/PlainNioServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/transport/PlainOioServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/buffer/solution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/transport/solution.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/netty-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/client/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/echo/client/EchoClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/client/EchoClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/echo/client/EchoClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/server/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/echo/server/EchoServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/server/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/echo/server/EchoServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/buffer/TestByteBuf.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/buffer/TestByteBuf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/IDEA_workspace/ag-finance" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,46 +72,7 @@
       <recent name="cn.zlfjw.client" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EchoClient">
-    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zlfjw.echo.client.EchoClient" />
-      <module name="netty-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.zlfjw.echo.client.EchoClient" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EchoClientTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zlfjw.client.EchoClientTwo" />
-      <module name="netty-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.zlfjw.echo.client.EchoClient" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zlfjw.server.EchoServer" />
-      <module name="netty-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zlfjw.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestByteBuf.test08">
     <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.zlfjw.echo.client.server.EchoServer" />
       <module name="netty-server" />
@@ -130,10 +86,93 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestByteBuf.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="netty-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zlfjw.buffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.zlfjw.buffer" />
+      <option name="MAIN_CLASS_NAME" value="cn.zlfjw.buffer.TestByteBuf" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestByteBuf.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="netty-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zlfjw.buffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.zlfjw.buffer" />
+      <option name="MAIN_CLASS_NAME" value="cn.zlfjw.buffer.TestByteBuf" />
+      <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestByteBuf.test06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="netty-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zlfjw.buffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.zlfjw.buffer" />
+      <option name="MAIN_CLASS_NAME" value="cn.zlfjw.buffer.TestByteBuf" />
+      <option name="METHOD_NAME" value="test06" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestByteBuf.test07" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="netty-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zlfjw.buffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.zlfjw.buffer" />
+      <option name="MAIN_CLASS_NAME" value="cn.zlfjw.buffer.TestByteBuf" />
+      <option name="METHOD_NAME" value="test07" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestByteBuf.test08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="netty-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zlfjw.buffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.zlfjw.buffer" />
+      <option name="MAIN_CLASS_NAME" value="cn.zlfjw.buffer.TestByteBuf" />
+      <option name="METHOD_NAME" value="test08" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EchoClientTwo" />
-        <item itemvalue="Application.EchoServer" />
+        <item itemvalue="JUnit.TestByteBuf.test08" />
+        <item itemvalue="JUnit.TestByteBuf.test07" />
+        <item itemvalue="JUnit.TestByteBuf.test06" />
+        <item itemvalue="JUnit.TestByteBuf.test03" />
+        <item itemvalue="JUnit.TestByteBuf.test02" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +202,8 @@
       <workItem from="1586859122836" duration="1765000" />
       <workItem from="1586916563454" duration="14122000" />
       <workItem from="1587003473845" duration="23573000" />
+      <workItem from="1587385802618" duration="192000" />
+      <workItem from="1587449678264" duration="6468000" />
     </task>
     <task id="LOCAL-00001" summary="第一个netty应用，echo服务器">
       <created>1587024507322</created>
@@ -185,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587026035550</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="echo和transport">
+      <created>1587385848651</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587385848651</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +244,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -205,45 +255,46 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一个netty应用，echo服务器" />
     <MESSAGE value="修改配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改配置" />
+    <MESSAGE value="echo和transport" />
+    <option name="LAST_COMMIT_MESSAGE" value="echo和transport" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="122" width="471" height="580" key="#com.intellij.ide.util.MemberChooser" timestamp="1587121481822">
+    <state x="574" y="122" width="471" height="580" key="#com.intellij.ide.util.MemberChooser" timestamp="1587462306418">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" width="471" height="580" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587121481822" />
+    <state x="574" y="122" width="471" height="580" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587462306418" />
     <state x="416" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587103306674">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="416" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1587103306674" />
-    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1587026034266">
+    <state x="267" y="0" key="CommitChangelistDialog2" timestamp="1587385845598">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587026034266" />
+    <state x="267" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587385845598" />
     <state x="147" y="65" width="1228" height="687" key="DiffContextDialog" timestamp="1587024498490">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="65" width="1228" height="687" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1587024498490" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587118395181">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587459662496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587118395181" />
-    <state width="1493" height="128" key="GridCell.Tab.0.bottom" timestamp="1587123446213">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587459662496" />
+    <state width="1493" height="164" key="GridCell.Tab.0.bottom" timestamp="1587463543104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="128" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587123446213" />
-    <state width="1493" height="128" key="GridCell.Tab.0.center" timestamp="1587123446213">
+    <state width="1493" height="164" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587463543104" />
+    <state width="1493" height="164" key="GridCell.Tab.0.center" timestamp="1587463543103">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="128" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587123446213" />
-    <state width="1493" height="128" key="GridCell.Tab.0.left" timestamp="1587123446213">
+    <state width="1493" height="164" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587463543103" />
+    <state width="1493" height="164" key="GridCell.Tab.0.left" timestamp="1587463543103">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="128" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587123446213" />
-    <state width="1493" height="128" key="GridCell.Tab.0.right" timestamp="1587123446213">
+    <state width="1493" height="164" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587463543103" />
+    <state width="1493" height="164" key="GridCell.Tab.0.right" timestamp="1587463543104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="128" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587123446213" />
+    <state width="1493" height="164" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587463543104" />
     <state width="1493" height="128" key="GridCell.Tab.1.bottom" timestamp="1587123446214">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -260,10 +311,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="128" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587123446213" />
-    <state x="251" y="119" key="Vcs.Push.Dialog.v2" timestamp="1587026040700">
+    <state x="251" y="119" key="Vcs.Push.Dialog.v2" timestamp="1587385853184">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="251" y="119" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587026040700" />
+    <state x="251" y="119" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587385853184" />
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587003501875">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -272,18 +323,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1587024697571" />
-    <state x="338" y="150" key="git4idea.merge.GitPullDialog" timestamp="1587025023420">
+    <state x="338" y="150" key="git4idea.merge.GitPullDialog" timestamp="1587385933476">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="338" y="150" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1587025023420" />
+    <state x="338" y="150" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1587385933476" />
     <state x="153" y="70" key="new project wizard" timestamp="1586939549941">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="153" y="70" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1586939549941" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587116963417">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587461573704">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587116963417" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587461573704" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

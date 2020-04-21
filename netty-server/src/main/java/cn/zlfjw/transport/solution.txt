@@ -1,0 +1,22 @@
+transport(传输)的用例以及 API:
+    NIO
+    OIO
+    Local(本地)
+    Embedded(内嵌)
+
+下面是你可能遇到的用例:
+    OIO-在低连接数、需要低延迟时、阻塞时使用
+    NIO-在高连接数时使用
+    Local-在同一个JVM内通信时使用
+    Embedded-测试ChannelHandler时使用
+
+API:
+方法名称 	描述
+eventLoop() 	返回分配给Channel的EventLoop
+pipeline() 	返回分配给Channel的ChannelPipeline
+isActive() 	返回Channel是否激活，已激活说明与远程连接对等
+localAddress() 	返回已绑定的本地SocketAddress
+remoteAddress() 	返回已绑定的远程SocketAddress
+write() 	写数据到远程客户端，数据通过ChannelPipeline传输过去
+flush() 	刷新先前的数据
+writeAndFlush(...) 	一个方便的方法用户调用write(...)而后调用 flush()
