@@ -1,0 +1,17 @@
+Channel 生命周期:
+Channel 有个简单但强大的状态模型，与 ChannelInboundHandler API 密切相关。下面表格是 Channel 的四个状态
+Table 6.1 Channel lifecycle states
+状态 	                                描述
+channelUnregistered 	channel已创建但未注册到一个 EventLoop.
+channelRegistered 	    channel 注册到一个 EventLoop.
+channelActive 	        channel 变为活跃状态(连接到了远程主机)，现在可以接收和发送数据了
+channelInactive 	    channel 处于非活跃状态，没有连接到远程主机
+
+ChannelHandler 生命周期:
+ChannelHandler 定义的生命周期操作如下表，当 ChannelHandler 添加到 ChannelPipeline，
+或者从 ChannelPipeline 移除后，对应的方法将会被调用。每个方法都传入了一个 ChannelHandlerContext 参数
+Table 6.2 ChannelHandler lifecycle methods
+类型 	                                描述
+handlerAdded 	        当 ChannelHandler 添加到 ChannelPipeline 调用
+handlerRemoved 	        当 ChannelHandler 从 ChannelPipeline 移除时调用
+exceptionCaught 	    当 ChannelPipeline 执行抛出异常时调用
