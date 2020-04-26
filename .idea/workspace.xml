@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bdcee46-218b-4a94-8f20-541ffecb56cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/netty-websocket/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-websocket/src/main/java/cn/zlfjw/websocket/handler/HttpRequestHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-websocket/src/main/java/cn/zlfjw/websocket/handler/TextWebSocketFrameHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-websocket/src/main/java/cn/zlfjw/websocket/server/ChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-websocket/src/main/java/cn/zlfjw/websocket/server/ChatServerInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +189,8 @@
       <workItem from="1587524758816" duration="3702000" />
       <workItem from="1587624480377" duration="11090000" />
       <workItem from="1587693515755" duration="13010000" />
-      <workItem from="1587722694899" duration="4435000" />
+      <workItem from="1587722694899" duration="4509000" />
+      <workItem from="1587866896603" duration="8138000" />
     </task>
     <task id="LOCAL-00001" summary="第一个netty应用，echo服务器">
       <created>1587024507322</created>
@@ -248,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587720449215</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="HttpRequestHandler">
+      <created>1587729866654</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587729866655</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,29 +282,30 @@
     <MESSAGE value="Channel和ChannelHandler" />
     <MESSAGE value="netty中的编解码器（实质上是一种ChannelHandler）" />
     <MESSAGE value="channelHandler和编解码器的各种用法" />
-    <option name="LAST_COMMIT_MESSAGE" value="channelHandler和编解码器的各种用法" />
+    <MESSAGE value="HttpRequestHandler" />
+    <option name="LAST_COMMIT_MESSAGE" value="HttpRequestHandler" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="122" width="471" height="580" key="#com.intellij.ide.util.MemberChooser" timestamp="1587725094508">
+    <state x="574" y="122" width="471" height="580" key="#com.intellij.ide.util.MemberChooser" timestamp="1587901225200">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" width="471" height="580" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587725094508" />
+    <state x="574" y="122" width="471" height="580" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587901225200" />
     <state x="416" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587103306674">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="416" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1587103306674" />
-    <state x="503" y="6" key="CommitChangelistDialog2" timestamp="1587720446523">
+    <state x="503" y="6" key="CommitChangelistDialog2" timestamp="1587729864092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="503" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587720446523" />
+    <state x="503" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587729864092" />
     <state x="147" y="65" width="1228" height="687" key="DiffContextDialog" timestamp="1587631184657">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="65" width="1228" height="687" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1587631184657" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587722733159">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587888192402">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587722733159" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587888192402" />
     <state width="746" height="166" key="GridCell.Tab.0.bottom" timestamp="1587722240882">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -334,14 +342,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1587714887052" />
-    <state x="251" y="119" key="Vcs.Push.Dialog.v2" timestamp="1587720451855">
+    <state x="251" y="119" key="Vcs.Push.Dialog.v2" timestamp="1587729874361">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="251" y="119" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587720451855" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587722694880">
+    <state x="251" y="119" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587729874361" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587866917835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587722694880" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587866917835" />
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587024697571">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
