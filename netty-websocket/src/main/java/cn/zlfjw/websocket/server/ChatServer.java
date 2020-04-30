@@ -14,6 +14,9 @@ import io.netty.util.concurrent.ImmediateEventExecutor;
 
 import java.net.InetSocketAddress;
 
+/**
+ * 引导服务器
+ */
 public class ChatServer {
     private final ChannelGroup channelGroup = new DefaultChannelGroup(ImmediateEventExecutor.INSTANCE);
     private final EventLoopGroup group = new NioEventLoopGroup();
