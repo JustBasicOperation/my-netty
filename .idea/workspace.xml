@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bdcee46-218b-4a94-8f20-541ffecb56cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/netty-websocket/src/main/java/cn/zlfjw/websocket/handler/TextWebSocketFrameHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-websocket/src/main/java/cn/zlfjw/websocket/server/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-websocket/src/main/java/cn/zlfjw/websocket/server/ChatServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/zhaolinfeng3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/socket/TimeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/socket/TimeServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-server/src/test/java/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-websocket/src/main/java/cn/zlfjw/websocket/server/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-websocket/src/main/java/cn/zlfjw/websocket/server/ChatServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,14 +58,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/IDEA_workspace/ag-manure" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -73,13 +76,13 @@
       <recent name="cn.zlfjw.channel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Server">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zlfjw.bootstrap.Client" />
-      <module name="netty-server" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zlfjw.websocket.server.ChatServer" />
+      <module name="netty-websocket" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.zlfjw.bootstrap.*" />
+          <option name="PATTERN" value="cn.zlfjw.websocket.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zlfjw.bootstrap.Server" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zlfjw.socket.Main" />
       <module name="netty-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.zlfjw.bootstrap.*" />
+          <option name="PATTERN" value="cn.zlfjw.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,49 +103,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChannelPipeline.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TimeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zlfjw.socket.TimeClient" />
       <module name="netty-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.zlfjw.channel.*" />
+          <option name="PATTERN" value="cn.zlfjw.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.zlfjw.channel" />
-      <option name="MAIN_CLASS_NAME" value="cn.zlfjw.channel.ChannelPipeline" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zlfjw.socket.TimeServer" />
+      <module name="netty-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zlfjw.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="netty-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
       <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestByteBuf.test07" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="netty-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.zlfjw.buffer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.zlfjw.buffer" />
-      <option name="MAIN_CLASS_NAME" value="cn.zlfjw.buffer.TestByteBuf" />
-      <option name="METHOD_NAME" value="test07" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestByteBuf.test08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="netty-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.zlfjw.buffer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.zlfjw.buffer" />
-      <option name="MAIN_CLASS_NAME" value="cn.zlfjw.buffer.TestByteBuf" />
-      <option name="METHOD_NAME" value="test08" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="JUnit.ChannelPipeline.test01" />
-        <item itemvalue="JUnit.TestByteBuf.test08" />
-        <item itemvalue="JUnit.TestByteBuf.test07" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TimeClient" />
+        <item itemvalue="Application.TimeServer" />
+        <item itemvalue="JUnit.Main.test01" />
+        <item itemvalue="Application.ChatServer" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +187,13 @@
       <workItem from="1587624480377" duration="11090000" />
       <workItem from="1587693515755" duration="13010000" />
       <workItem from="1587722694899" duration="4509000" />
-      <workItem from="1587866896603" duration="8138000" />
+      <workItem from="1587866896603" duration="8903000" />
+      <workItem from="1587953813500" duration="1234000" />
+      <workItem from="1588066041515" duration="3049000" />
+      <workItem from="1588154381542" duration="3711000" />
+      <workItem from="1588211248550" duration="2765000" />
+      <workItem from="1588230194199" duration="209000" />
+      <workItem from="1588237499310" duration="2097000" />
     </task>
     <task id="LOCAL-00001" summary="第一个netty应用，echo服务器">
       <created>1587024507322</created>
@@ -255,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587729866655</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="添加websocket支持">
+      <created>1587901312254</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587901312254</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,45 +293,46 @@
     <MESSAGE value="netty中的编解码器（实质上是一种ChannelHandler）" />
     <MESSAGE value="channelHandler和编解码器的各种用法" />
     <MESSAGE value="HttpRequestHandler" />
-    <option name="LAST_COMMIT_MESSAGE" value="HttpRequestHandler" />
+    <MESSAGE value="添加websocket支持" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加websocket支持" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="122" width="471" height="580" key="#com.intellij.ide.util.MemberChooser" timestamp="1587901225200">
+    <state x="574" y="122" width="471" height="580" key="#com.intellij.ide.util.MemberChooser" timestamp="1588238468969">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" width="471" height="580" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587901225200" />
+    <state x="574" y="122" width="471" height="580" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1588238468969" />
     <state x="416" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587103306674">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="416" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1587103306674" />
-    <state x="503" y="6" key="CommitChangelistDialog2" timestamp="1587729864092">
+    <state x="503" y="6" key="CommitChangelistDialog2" timestamp="1588240253063">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="503" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587729864092" />
+    <state x="503" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588240253063" />
     <state x="147" y="65" width="1228" height="687" key="DiffContextDialog" timestamp="1587631184657">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="65" width="1228" height="687" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1587631184657" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587888192402">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1588212725591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587888192402" />
-    <state width="746" height="166" key="GridCell.Tab.0.bottom" timestamp="1587722240882">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588212725591" />
+    <state width="833" height="172" key="GridCell.Tab.0.bottom" timestamp="1588240239495">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="166" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587722240882" />
-    <state width="746" height="166" key="GridCell.Tab.0.center" timestamp="1587722240882">
+    <state width="833" height="172" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588240239495" />
+    <state width="833" height="172" key="GridCell.Tab.0.center" timestamp="1588240239495">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="166" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587722240882" />
-    <state width="746" height="166" key="GridCell.Tab.0.left" timestamp="1587722240882">
+    <state width="833" height="172" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588240239495" />
+    <state width="833" height="172" key="GridCell.Tab.0.left" timestamp="1588240239494">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="166" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587722240882" />
-    <state width="746" height="166" key="GridCell.Tab.0.right" timestamp="1587722240882">
+    <state width="833" height="172" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588240239494" />
+    <state width="833" height="172" key="GridCell.Tab.0.right" timestamp="1588240239495">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="166" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587722240882" />
+    <state width="833" height="172" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588240239495" />
     <state width="1493" height="128" key="GridCell.Tab.1.bottom" timestamp="1587123446214">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -342,22 +353,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1587714887052" />
-    <state x="251" y="119" key="Vcs.Push.Dialog.v2" timestamp="1587729874361">
+    <state x="270" y="54" key="SettingsEditor" timestamp="1588066241413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="251" y="119" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587729874361" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587866917835">
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588066241413" />
+    <state x="251" y="119" key="Vcs.Push.Dialog.v2" timestamp="1588240196788">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587866917835" />
+    <state x="251" y="119" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588240196788" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588211248007">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588211248007" />
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587024697571">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1587024697571" />
-    <state x="338" y="150" key="git4idea.merge.GitPullDialog" timestamp="1587631174684">
+    <state x="338" y="150" key="git4idea.merge.GitPullDialog" timestamp="1588240191038">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="338" y="150" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1587631174684" />
+    <state x="338" y="150" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1588240191038" />
     <state x="561" y="277" key="git4idea.rebase.GitRebaseDialog" timestamp="1587631118122">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -370,9 +385,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1587711246824" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587630259364">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588157709895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587630259364" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588157709895" />
   </component>
 </project>
