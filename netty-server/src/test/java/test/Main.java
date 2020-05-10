@@ -15,4 +15,5 @@ public class Main {
         System.out.println(s1.contains(s2));
         System.out.println(s1.contentEquals(s2));
     }
+
 }
