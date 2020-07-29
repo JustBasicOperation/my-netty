@@ -28,7 +28,7 @@ public class Server {
                                   }
                               }
                 );
-        ChannelFuture future = bootstrap.bind(new InetSocketAddress(8080)); //5
+        ChannelFuture future = bootstrap.bind(new InetSocketAddress(8080)); //5 绑定连接
         future.addListener(new ChannelFutureListener() {
                                @Override
                                public void operationComplete(ChannelFuture channelFuture)

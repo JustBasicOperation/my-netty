@@ -15,10 +15,30 @@
 
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
-            <version>4.1.42.final</version>
+            <version>4.1.42.Final</version>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>maven-public</id>
+            <name>maven-public</name>
+            <url>https://mirrors.tencent.com/nexus/repository/maven-public/</url>
+        </repository>
+        <repository>
+            <id>maven-public</id>
+            <name>maven-public</name>
+            <url>https://mirrors.tencent.com/repository/maven/tencent-code</url>
+        </repository>
+        <!-- trpc测试库 -->
+        <repository>
+            <id>trpc_dev</id>
+            <name>trpc_dev</name>
+            <url>https://mirrors.tencent.com/repository/maven/trpc_dev</url>
+        </repository>
+    </repositories>
 </project>

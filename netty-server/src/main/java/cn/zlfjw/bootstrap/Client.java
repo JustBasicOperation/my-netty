@@ -14,9 +14,9 @@ public class Client {
     public void start(){
         EventLoopGroup group = new NioEventLoopGroup();
         Bootstrap bootstrap = new Bootstrap(); //1
-        bootstrap.group(group) //2
-                .channel(NioSocketChannel.class) //3
-                .handler(new SimpleChannelInboundHandler<ByteBuf>() { //4
+        bootstrap.group(group) //2 注册通道
+                .channel(NioSocketChannel.class) //3 注册通道类型
+                .handler(new SimpleChannelInboundHandler<ByteBuf>() { //4 注册通道处理器
                     @Override
                     protected void channelRead0(
                             ChannelHandlerContext channelHandlerContext,
@@ -26,7 +26,7 @@ public class Client {
                     }
                 });
         ChannelFuture future = bootstrap.connect(
-                new InetSocketAddress("www.manning.com", 80)); //5
+                new InetSocketAddress("www.manning.com", 80)); //5 打开连接
         future.addListener(new ChannelFutureListener() {
             @Override
             public void operationComplete(ChannelFuture channelFuture)

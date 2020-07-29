@@ -1,15 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3bdcee46-218b-4a94-8f20-541ffecb56cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/netty-server/src/test/java/test/HttpUrlConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/my-netty.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-server/src/test/java/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-server/src/test/java/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/bootstrap/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/bootstrap/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/bootstrap/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-server/src/main/java/cn/zlfjw/bootstrap/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.21.1" />
+      </map>
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -21,23 +51,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="D:\workespace\my-netty\.idea" />
-      </set>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="userSettingsFile" value="D:\workespace\settings.xml" />
+        <option name="localRepository" value="D:\Software\apache-maven-3.6.3\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Software/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Software\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1aWLkLfbseg7tWilhEkVHmnitge" />
@@ -45,23 +65,25 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myleetcode" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -72,7 +94,33 @@
       <recent name="cn.zlfjw.channel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HttpUrlConnectionTest">
+  <component name="RunManager" selected="Application.EchoClient">
+    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zlfjw.echo.client.EchoClient" />
+      <module name="netty-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zlfjw.echo.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zlfjw.echo.server.EchoServer" />
+      <module name="netty-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zlfjw.echo.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HttpUrlConnectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.HttpUrlConnectionTest" />
       <module name="netty-server" />
@@ -112,56 +160,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zlfjw.socket.TimeServer" />
-      <module name="netty-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.zlfjw.socket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="netty-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.Main" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EchoClient" />
+        <item itemvalue="Application.EchoServer" />
         <item itemvalue="Application.HttpUrlConnectionTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TimeClient" />
-        <item itemvalue="Application.TimeServer" />
-        <item itemvalue="JUnit.Main.test01" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -191,6 +198,11 @@
       <workItem from="1588230194199" duration="209000" />
       <workItem from="1588237499310" duration="4093000" />
       <workItem from="1588921232832" duration="5610000" />
+      <workItem from="1594443500472" duration="6491000" />
+      <workItem from="1594607101373" duration="5017000" />
+      <workItem from="1595235199978" duration="1654000" />
+      <workItem from="1595493869737" duration="9833000" />
+      <workItem from="1595817301525" duration="16052000" />
     </task>
     <task id="LOCAL-00001" summary="第一个netty应用，echo服务器">
       <created>1587024507322</created>
@@ -280,20 +292,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一个netty应用，echo服务器" />
@@ -313,10 +324,6 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="122" width="471" height="580" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1588238468969" />
-    <state x="416" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587103306674">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="416" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1587103306674" />
     <state x="503" y="6" key="CommitChangelistDialog2" timestamp="1589095441615">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -325,50 +332,40 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="65" width="1228" height="687" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1589095502410" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1589095412359">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="915" y="284" key="FileChooserDialogImpl" timestamp="1595852845592">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589095412359" />
-    <state width="1493" height="176" key="GridCell.Tab.0.bottom" timestamp="1588937332722">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="915" y="284" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1595852845592" />
+    <state width="2507" height="397" key="GridCell.Tab.0.bottom" timestamp="1596014693265">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1493" height="176" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588937332722" />
-    <state width="1493" height="176" key="GridCell.Tab.0.center" timestamp="1588937332722">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2507" height="397" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1596014693265" />
+    <state width="2507" height="397" key="GridCell.Tab.0.center" timestamp="1596014693265">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1493" height="176" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588937332722" />
-    <state width="1493" height="176" key="GridCell.Tab.0.left" timestamp="1588937332721">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2507" height="397" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1596014693265" />
+    <state width="2507" height="397" key="GridCell.Tab.0.left" timestamp="1596014693265">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1493" height="176" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588937332721" />
-    <state width="1493" height="176" key="GridCell.Tab.0.right" timestamp="1588937332722">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2507" height="397" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1596014693265" />
+    <state width="2507" height="397" key="GridCell.Tab.0.right" timestamp="1596014693265">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1493" height="176" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588937332722" />
-    <state width="1493" height="128" key="GridCell.Tab.1.bottom" timestamp="1587123446214">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="128" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587123446214" />
-    <state width="1493" height="128" key="GridCell.Tab.1.center" timestamp="1587123446213">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="128" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587123446213" />
-    <state width="1493" height="128" key="GridCell.Tab.1.left" timestamp="1587123446213">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="128" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587123446213" />
-    <state width="1493" height="128" key="GridCell.Tab.1.right" timestamp="1587123446213">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="128" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587123446213" />
+    <state width="2507" height="397" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1596014693265" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1587714887052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1587714887052" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1588066241413">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="450" y="92" key="SettingsEditor" timestamp="1595504297198">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588066241413" />
+    <state x="450" y="92" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1595504297198" />
     <state x="251" y="119" key="Vcs.Push.Dialog.v2" timestamp="1589095504077">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -377,10 +374,6 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588211248007" />
-    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587024697571">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1587024697571" />
     <state x="338" y="150" key="git4idea.merge.GitPullDialog" timestamp="1589095483698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -397,9 +390,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1587711246824" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588931930068">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="718" y="246" width="1120" height="1152" key="search.everywhere.popup" timestamp="1596006889028">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588931930068" />
+    <state x="718" y="246" width="1120" height="1152" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1596006889028" />
   </component>
 </project>
